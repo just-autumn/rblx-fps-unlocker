@@ -1,5 +1,5 @@
 # rblx-fps-unlocker
-An FPS unlocker for Roblox that doesn't change any system files.
+A FPS unlocker for Roblox that doesn't change any system files.
 
 ## Safety and anticheat
 Since this script does not modify any of Roblox's files, Byfron does not trigger and thus it is entirely safe.
