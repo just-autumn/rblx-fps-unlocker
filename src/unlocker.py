@@ -43,7 +43,7 @@ elif choice == "Set frame cap":
         except KeyboardInterrupt:
             print("Aborted.")
             time.sleep(7)
-            exit(0)
+            sys.exit()
 
 elif choice == "Uninstall":
     json_data = {
@@ -53,7 +53,7 @@ elif choice == "Uninstall":
 elif choice == "Abort":
     print("Aborted.")
     time.sleep(7)
-    exit(0)
+    sys.exit()
 
 else:
     os.system("color 20")
