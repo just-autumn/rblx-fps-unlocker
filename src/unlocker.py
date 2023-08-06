@@ -15,7 +15,7 @@ choice = str(selection.Selection("Roblox FPS Unlocker. V1.2, © Autumn 2022 - pr
 
 print(rf"""
 a script by...
-      .o.                       .                                                Roblox FPS Unlocker   V1.2
+      .o.                       .                                                Roblox FPS Unlocker   V1.2.5
      .888.                    .o8                                                © 2022-present,       Autumn - MIT License
     .8"888.     oooo  oooo  .o888oo oooo  oooo  ooo. .oo.  .oo.   ooo. .oo.      written in:           Python 3.11.3
    .8' `888.    `888  `888    888   `888  `888  `888P"Y88bP"Y88b  `888P"Y88b     running on:           {platform.uname().machine} {platform.uname().system} {platform.uname().release}
