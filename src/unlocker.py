@@ -15,13 +15,13 @@ choice = str(selection.Selection("Roblox FPS Unlocker. V1.2, © Autumn 2022 - pr
 
 print(rf"""
 a script by...
-      .o.                       .                                                Roblox FPS Unlocker   V1.2.5
-     .888.                    .o8                                                © 2022-present,       Autumn - MIT License
-    .8"888.     oooo  oooo  .o888oo oooo  oooo  ooo. .oo.  .oo.   ooo. .oo.      written in:           Python 3.11.3
-   .8' `888.    `888  `888    888   `888  `888  `888P"Y88bP"Y88b  `888P"Y88b     running on:           {platform.uname().machine} {platform.uname().system} {platform.uname().release}
-  .88ooo8888.    888   888    888    888   888   888   888   888   888   888     installed at:         <** REDACTED **>
- .8'     `888.   888   888    888 .  888   888   888   888   888   888   888     documentation:        <unavailable>
-o88o     o8888o  `V88V"V8P'   "888"  `V88V"V8P' o888o o888o o888o o888o o888o    supprt:               <unavailable>
+      .o.                       .                                                Roblox FPS Unlocker V1.2.5
+     .888.                    .o8                                                © 2023,             Autumn - MIT License
+    .8"888.     oooo  oooo  .o888oo oooo  oooo  ooo. .oo.  .oo.   ooo. .oo.      written in:         Python 3.11.3
+   .8' `888.    `888  `888    888   `888  `888  `888P"Y88bP"Y88b  `888P"Y88b     running on:         {platform.uname().machine} {platform.uname().system} {platform.uname().release}
+  .88ooo8888.    888   888    888    888   888   888   888   888   888   888     installed at:       <** REDACTED **>
+ .8'     `888.   888   888    888 .  888   888   888   888   888   888   888     documentation:      <unavailable>
+o88o     o8888o  `V88V"V8P'   "888"  `V88V"V8P' o888o o888o o888o o888o o888o    supprt:             <unavailable>
 """)
 
 if choice == "Unlock FPS":
