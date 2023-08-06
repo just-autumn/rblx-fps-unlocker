@@ -1,8 +1,8 @@
-# rblx-fps-unlocker
-A FPS unlocker for Roblox that doesn't change any system files.
+<h1 align="center"> rblx-fps-unlocker</h1>
+<p align="center">A FPS unlocker for Roblox that doesn't change any system files.</p>
 
-## Safety and anticheat
-Since this script does not modify any of Roblox's files, Byfron does not trigger and thus it is entirely safe.
+## Is this safe?
+Since this script just uses code that's already built into Roblox, just disabled by default, it doesn't trigger Byfron. We just add a file for advanced settings which activates the code. Think of loading custom audio files in studio, we add a file but don't modify anything.
 
 ## Download
 ### GitHub (Recommended)
@@ -13,3 +13,7 @@ This is a Python project so compilation *isn't required* but can be done. The to
 ```bat
 pyinstaller --clean -F unlocker.py -n "Roblox FPS Unlocker" -i "icon.png"
 ```
+
+#### Source requirements:
+Building from source requires the following package(s) to be installed with pip:
+- *[WINDOWS]:* [windows-curses](https://pypi.org/project/windows-curses/) -- `pip install windows-curses`
