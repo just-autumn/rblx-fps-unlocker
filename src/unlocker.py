@@ -13,6 +13,17 @@ os.system("title Roblox FPS Unlocker")
 
 choice = str(selection.Selection("Roblox FPS Unlocker. V1.2, © Autumn 2022 - present", ["Unlock FPS", "Set frame cap", "Uninstall", "Abort"], "-> "))
 
+print(rf"""
+a script by...
+      .o.                       .                                                Roblox FPS Unlocker   V1.2
+     .888.                    .o8                                                © 2022-present,       Autumn - MIT License
+    .8"888.     oooo  oooo  .o888oo oooo  oooo  ooo. .oo.  .oo.   ooo. .oo.      written in:           Python 3.11.3
+   .8' `888.    `888  `888    888   `888  `888  `888P"Y88bP"Y88b  `888P"Y88b     running on:           {platform.uname().machine} {platform.uname().system} {platform.uname().release}
+  .88ooo8888.    888   888    888    888   888   888   888   888   888   888     installed at:         <** REDACTED **>
+ .8'     `888.   888   888    888 .  888   888   888   888   888   888   888     documentation:        <unavailable>
+o88o     o8888o  `V88V"V8P'   "888"  `V88V"V8P' o888o o888o o888o o888o o888o    supprt:               <unavailable>
+""")
+
 if choice == "Unlock FPS":
     json_data = {
             "DFIntTaskSchedulerTargetFps": 200000000
@@ -128,17 +139,6 @@ except Exception as err:
     # prints the error to console
     print(f"[! FATAL !] Uncaught exception: {err}.")
     # reset the colour, because it's nice.
-
-print(rf"""
-a script by...
-      .o.                       .                                                Roblox FPS Unlocker   V1.2
-     .888.                    .o8                                                © 2022-present,       Autumn - MIT License
-    .8"888.     oooo  oooo  .o888oo oooo  oooo  ooo. .oo.  .oo.   ooo. .oo.      written in:           Python 3.11.3
-   .8' `888.    `888  `888    888   `888  `888  `888P"Y88bP"Y88b  `888P"Y88b     running on:           {platform.uname().machine} {platform.uname().system} {platform.uname().release}
-  .88ooo8888.    888   888    888    888   888   888   888   888   888   888     installed at:         <** REDACTED **>
- .8'     `888.   888   888    888 .  888   888   888   888   888   888   888     documentation:        <unavailable>
-o88o     o8888o  `V88V"V8P'   "888"  `V88V"V8P' o888o o888o o888o o888o o888o    supprt:               <unavailable>
-""")
 
 print("\nChanges require Roblox to be restarted.")
 input("[ press ENTER to exit ]")
